@@ -1,14 +1,15 @@
-#  Módulo Academia
+# Módulo Academia
 ### Módulo
-
+### Respecto a la última versión enviada, esta debería haber solucionado el problema de la visualización del menú
 - Este módulo tiene como objetivo principal gestionar los profesores y asignaturas de una academia. Está formado
 por dos modelos que son profesores y asignaturas.
-- El modelo asignaturas está formado por una vista tree y form mientras que profesores solo por una vista form.
+- Utilización de fields de tipo data
+- Relaciones a la hora de establecer que profesor imparte cada asignatura
 - El modelo profesores hereda de res_partner
-- Relaciones de datos entre Profesores y Asignaturas
+- Vistas Tree y form en el modelo asignatura
+- Posibilidad de editar o borrar registros
 
 ### Interfaz
-- Es necesario la activación de modo superusuario para la visualización del módulo, debido a problemas con la creación del csv.
-- Una vez entremos en el módulo academia tendremos dos menús. El de profesores nos permitirá añadir toda la información
-relativa a estos, mientras que asignaturas tendrá la misma función pero se podrá relacionar que profesor imparte cada una.
-- Finalmente también se encuentran opciones de edición y borrado en caso de querer realizar algún cambio en el futuro
+- Una vez instalado el módulo, este aparecerá en el listado de apps.
+- El menú consta de 2 submenus, profesores(que se abre por defecto) y asignaturas
+
